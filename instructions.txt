@@ -1,0 +1,52 @@
+Make sure you have installed Python, Django and Virtualenv in your system or Install them by:
+
+        Install Python : 
+        1. Go to 'https://www.python.org/downloads/' , download and install latest version on Python.
+
+        Install Django :
+        1. Open CMD / Command Prompt
+        2. Enter command 'pip install django'
+
+        Install Virtualenv :
+
+        1. Open CMD / Command Prompt
+        2. Enter command 'pip install virtualenv'
+
+
+1. Open CMD / Command Prompt
+
+2. Go to project folder. 
+
+        If the project is in desktop : 
+                1. cd desktop
+                2. cd 'project folder name' 
+
+3. Create Virtualenv using 'virtualenv env' command.
+
+
+4. Activate virtualenv by command 'env\Scripts\activate'
+
+    you should see a '(env)' in the starting of command line.
+        eg : (env) C:\Users\finua\Desktop\chat_application>
+
+5. Use 'pip install -r requirements.txt' command to install all packages which is used in this project to your virtualenv.
+
+
+6. Use 'python manage.py runserver' command to run the project.
+
+7. 'http://127.0.0.1:8000/' go to this link in your browser to see the project.
+
+8. This will take you to login page. You can login with admin's credentials or Register as new user.
+
+9. This will take you to home where you can give a chat room name eg. : 'Hello World' and a user name eg. : 'user1', and start to chat there!
+
+10. Open 'http://127.0.0.1:8000/' in a new tab and give previously used Chat Room name there! eg. : 'Hello World' with a new user name eg. : 'user2'.
+
+11. Use 'ctrl+c' to stop the server
+
+Admin Page.
+
+'http://127.0.0.1:8000/admin/'
+
+User Name : admin
+Password  : admin
